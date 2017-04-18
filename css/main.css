@@ -9,17 +9,28 @@ body{
 .caja {
   width: 200px;
   height: 200px;
+  position: absolute;
 }
-
+/*Square's color*/
 #rosa {
   background-color: #ee3e64;
+  left: 0;
+  top:0;
 }
 
 #azul {
   background-color: #2b7db9;
-  left: 200px;
-  position: relative;
+  right: 0;
+  top: 0;
 }
 #verde {
-  background-color: #b7d84b
+  background-color: #b7d84b;
+  bottom: 0;
+  left: 0;
+
+}
+#amarillo{
+  background-color: #faff16;
+  right: 0;
+  bottom: 0;
 }
